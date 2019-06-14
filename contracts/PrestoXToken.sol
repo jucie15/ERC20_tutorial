@@ -4,9 +4,9 @@ import 'openzeppelin-solidity/contracts/token/ERC20/ERC20Pausable.sol';
 import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
 import './TokenLock.sol';
 
-contract TEST is ERC20Pausable, Ownable {
-  string public constant name = "PRESTO Token";
-  string public constant symbol = "PRSTX";
+contract GUSTOS is ERC20Pausable, Ownable {
+  string public constant name = "Gustos Token";
+  string public constant symbol = "GST";
   uint public constant decimals = 18;
   uint public constant INITIAL_SUPPLY = 1000000000 * (10 ** decimals);
 
